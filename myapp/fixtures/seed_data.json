@@ -1,0 +1,108 @@
+[
+    {
+      "model": "newapp.carmakemodel",
+      "pk": 1,
+      "fields": {
+        "make": "Toyota",
+        "model": "Corolla",
+        "year": 2020,
+        "price": "25000.00"
+      }
+    },
+    {
+      "model": "newapp.carmakemodel",
+      "pk": 2,
+      "fields": {
+        "make": "Honda",
+        "model": "Civic",
+        "year": 2019,
+        "price": "23000.00"
+      }
+    },
+    {
+      "model": "newapp.carmakemodel",
+      "pk": 3,
+      "fields": {
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 2018,
+        "price": "35000.00"
+      }
+    },
+    {
+      "model": "newapp.carmakemodel",
+      "pk": 4,
+      "fields": {
+        "make": "Chevrolet",
+        "model": "Camaro",
+        "year": 2021,
+        "price": "38000.00"
+      }
+    },
+    {
+      "model": "newapp.carmakemodel",
+      "pk": 5,
+      "fields": {
+        "make": "BMW",
+        "model": "X5",
+        "year": 2017,
+        "price": "45000.00"
+      }
+    },
+    {
+      "model": "newapp.carspecifications",
+      "pk": 1,
+      "fields": {
+        "car": 1,
+        "color": "Red",
+        "mileage": 15000,
+        "engine_capacity": 2.0,
+        "horsepower": 180
+      }
+    },
+    {
+      "model": "newapp.carspecifications",
+      "pk": 2,
+      "fields": {
+        "car": 2,
+        "color": "Blue",
+        "mileage": 20000,
+        "engine_capacity": 1.8,
+        "horsepower": 170
+      }
+    },
+    {
+      "model": "newapp.carspecifications",
+      "pk": 3,
+      "fields": {
+        "car": 3,
+        "color": "Black",
+        "mileage": 10000,
+        "engine_capacity": 5.0,
+        "horsepower": 450
+      }
+    },
+    {
+      "model": "newapp.carspecifications",
+      "pk": 4,
+      "fields": {
+        "car": 4,
+        "color": "Yellow",
+        "mileage": 5000,
+        "engine_capacity": 3.6,
+        "horsepower": 320
+      }
+    },
+    {
+      "model": "newapp.carspecifications",
+      "pk": 5,
+      "fields": {
+        "car": 5,
+        "color": "White",
+        "mileage": 30000,
+        "engine_capacity": 3.0,
+        "horsepower": 300
+      }
+    }
+  ]
+  

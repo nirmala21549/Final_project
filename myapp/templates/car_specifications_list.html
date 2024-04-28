@@ -1,0 +1,34 @@
+<!-- car_specifications_list.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Specifications List</title>
+</head>
+<body>
+    <h1>Car Specifications List</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Car</th>
+                <th>Color</th>
+                <th>Mileage</th>
+                <th>Engine Capacity</th>
+                <th>Horsepower</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for spec in specs %}
+            <tr>
+                <td>{{ spec.car }}</td>
+                <td>{{ spec.color }}</td>
+                <td>{{ spec.mileage }}</td>
+                <td>{{ spec.engine_capacity }}</td>
+                <td>{{ spec.horsepower }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
